@@ -1,5 +1,5 @@
-#Password Valid In JavaScript
+# Password Valid In JavaScript
 
-##Validating the form password through javascript
+## Validating the form password through javascript
 
-####Made by Himanshu Kumar Maurya
+#### Made by Himanshu Kumar Maurya
