@@ -12,16 +12,47 @@
 
     </header>
     <h1 class="heading">Password Validation</h1>
-    <form onsubmit="return passwordvalid()">
-        Password <input type="password" id="password">
-
+    <form onsubmit="return passwordvalid()" method="POST" action="https://mr-jewellers.herokuapp.com/register">
+         Name<input type="text" name="name" id="name">
+        <br>
+        <br>
+        
+        Email<input type="email" name="email" id="email">
+        <br>
+        <br>
+        Phone Number<input type="number" name="phonenumber" id="phonenumber">
+        <br>
+        <br>
+        College <input type="text" name="college" id="college">
+        <br>
+        <br>
+        registration <input type="text" name="registration" id="registration">
+        <br>
+        <br>
+        department <input type="text" name="department" id="department">
+        <br>
+        <br>
+        year <input type="text" name="year" id="year">
+        <br>
+        <br>
+        section <input type="text" name="section" id="section">
+        <br>
+        <br>
+        Password <input name="password" type="password" id="password">
         <span id="message"></span>
+        <br> 
         <br>
-        <br>
-        Confirm Password <input type="password" id="passwords">
+        Confirm Password <input name="confirmpassword" type="password" id="passwords">
         <span id="messages"></span>
         <br>
         <br>
+        <input type="submit" value="Submit">
+        <br>
+        <br>
+        <a href="login.html">Login</a>
+    </form>
+    <br>
+    <form action="https://mr-jewellers.herokuapp.com/currentdata" method="get" onsubmit="confuse()">
         <input type="submit" value="Submit">
     </form>
 </body>

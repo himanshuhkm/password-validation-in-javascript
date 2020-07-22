@@ -22,3 +22,9 @@ function passwordvalid() {
       return false;
   }
 }
+
+function confuse() {
+  if (success == "true"){
+    location="login.html"
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="pass.js"></script>
+    <title>Password Validation</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <h1 class="heading">Password Validation</h1>
+    <form onsubmit="return passwordvalid()" method="POST" action="https://mr-jewellers.herokuapp.com/login">
+        
+        Email<input type="email" for="loginemail" name="email" id="email">
+        <br>
+        <br>
+        Password <input name="password" for="loginpassword" type="password" id="password">
+        <span id="message"></span>
+        <br> 
+        <br>
+        <input type="submit" value="Submit">
+        <br>
+        <br>
+        <a href="index.html">Register</a>
+    </form>
+</body>
+</html>
